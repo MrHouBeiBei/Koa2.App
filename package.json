@@ -6,9 +6,12 @@
   "dependencies": {
     "koa": "^2.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
   "scripts": {
-    "dev": "node my-koa-app.js"
+    "dev": "node my-koa-app.js",
+    "hot": "nodemon ./my-koa-app.js"
   },
   "author": "Herbie",
   "license": "ISC"
