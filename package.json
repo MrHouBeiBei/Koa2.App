@@ -1,0 +1,15 @@
+{
+  "name": "koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "my-koa-app.js",
+  "dependencies": {
+    "koa": "^2.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node my-koa-app.js"
+  },
+  "author": "Herbie",
+  "license": "ISC"
+}
